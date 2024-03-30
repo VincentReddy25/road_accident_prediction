@@ -8,7 +8,7 @@ from twilio.rest import Client
 app = Flask(__name__)
 model = joblib.load('model.sav')
 # Twilio account credentials
-account_sid = "AC48b8442ca1a1bdfb07a788e334e5341 2"
+account_sid = "AC48b8442ca1a1bdfb07a788e334e53412"
 auth_token = "0a913298f60a7dc4e93c055a396a2ec3"
 twilio_phone_number = "+13027516269"  # Your Twilio phone number
 verified_recipient_number = "+919553495889"  # Your verified recipient number
